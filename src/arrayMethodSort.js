@@ -12,6 +12,10 @@ function applyCustomSort() {
       return 1;
     }
 
+    if (aString === bString) {
+      return 0;
+    }
+
     return -1;
   }
 
